@@ -11,7 +11,7 @@ body{
     margin:0
 }
 
-.header, .first {
+.header, .first, .footer {
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
@@ -28,6 +28,7 @@ body{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    margin-right: auto;
 }
 
 h1{
@@ -130,3 +131,26 @@ p, h3 {
     align-items: center;
     padding: 32px;
 }
+
+.right-mod button{
+    background: #3882F6;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+.footer {
+    color: #F9FAF8;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .first, .random-info, .quote-container, .footer{
+    flex: 1;
+}
+
